@@ -9,5 +9,6 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.mount('ember-visualization');
+  this.mount('bork-bork');
 });
 export default Router;
